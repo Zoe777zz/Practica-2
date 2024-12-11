@@ -66,7 +66,7 @@ public class Agua {
             if (comprobar_discapacidad == 0) {
                 System.out.println("Ingrese el porcentaje de discapacidad entre 10 -100");
                 porcentaje_discapacidad = sc.nextFloat();
-            if (porcentaje_discapacidad >= 10 && porcentaje_discapacidad <= 90) {
+            if (porcentaje_discapacidad >= 10 && porcentaje_discapacidad <= 100) {
                 return porcentaje_discapacidad; // Retornar 
             } else {
                 System.out.println("Porcentaje inválido");
